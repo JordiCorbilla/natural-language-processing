@@ -1,6 +1,6 @@
 # natural-language-processing
 
-Python Samples for NLP
+Python Samples for NLP using `sklearn`
 
 # NLP
 
