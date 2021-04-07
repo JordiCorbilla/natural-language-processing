@@ -8,7 +8,7 @@ NLP is the technology behind machine translation. It's alsu useful for Text-to-s
 
 Language is something that is fairly new in terms of evolution and it only relates to humans. Trying to build a computer that could understand language as we do would mean building an intelligent computer and we are still quite far away from it. 
 
-# Preparing the conda environment
+# Preparing the conda environment using Python 3.8
 
 ```bash
 (base) C:\Users\thund>conda create --name nlp python=3.8
