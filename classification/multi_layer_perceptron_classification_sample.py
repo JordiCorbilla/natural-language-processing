@@ -5,8 +5,6 @@ Created on Thu Apr  8 20:59:18 2021
 @author: Jordi Corbilla
 """
 from __future__ import print_function, division
-from future.utils import iteritems
-from builtins import range, input
 import numpy as np
 from sklearn.datasets import load_breast_cancer
 from sklearn.model_selection import train_test_split
@@ -38,9 +36,9 @@ print(data.target.shape)
 
 # Learning component
 # split the data 1/3 of it will be for training
-X_train, X_test, y_train, y_test = train_test_split(data.data, 
-                                                     data.target, 
-                                                     test_size=0.33)
+X_train, X_test, y_train, y_test = train_test_split(data.data,
+                                                    data.target,
+                                                    test_size=0.33)
 
 # define the classifier that we will use
 scaler = StandardScaler()
@@ -74,10 +72,6 @@ print(np.sum(prediction == y_test) / N)
 conf_mat = confusion_matrix(y_test, prediction, labels=[0, 1])
 print(conf_mat)
 
-plt.figure(figsize = (10,7))
+plt.figure(figsize=(10, 7))
 seaborn.heatmap(conf_mat, annot=True)
 plt.show()
-
-
-
-
