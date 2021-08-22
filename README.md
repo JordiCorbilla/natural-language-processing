@@ -1,4 +1,4 @@
-# natural-language-processing
+# natural-language-processing (NLP)
 
 Python Samples for NLP using `sklearn`
 
